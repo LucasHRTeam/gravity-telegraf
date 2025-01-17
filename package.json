@@ -1,0 +1,24 @@
+{
+  "name": "gravity-telegraf",
+  "version": "1.0.0",
+  "description": "Sistema de automação para o Telegram",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "clear && nodemon .",
+    "start": "clear && node ./src/index.js"
+  },
+  "keywords": [
+    "telegraf"
+  ],
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "dotenv": "^16.4.7",
+    "node-fetch": "^3.3.2",
+    "telegraf": "4.16.3"
+  },
+  "author": "LucasHRTeam",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
